@@ -191,16 +191,16 @@ public class LrcView extends View implements ILrcView {
             float textWidth = mPaintForOtherLrc.measureText(DEFAULT_TEXT);
             float textX = (getWidth() - textWidth) / 2;
             canvas.drawText(DEFAULT_TEXT, textX, getHeight() / 2, mPaintForOtherLrc);
-
             return;
         }
         if (mTotleDrawRow == 0) {
             //初始化将要绘制的歌词行数
-            mTotleDrawRow = (int) (getHeight() / (mCurSizeForOtherLrc + mCurPadding)) + 4;
+            mTotleDrawRow = (int) (getHeight() / (mCurSizeForOtherLrc + mCurPadding));
         }
         //因为不需要将所有歌词画出来
-        int minRaw = mCurRow - (mTotleDrawRow - 1) / 2;
-        int maxRaw = mCurRow + (mTotleDrawRow - 1) / 2;
+        int minRaw = mCurRow - getRowCount(mCurRow, true);
+        int maxRaw = mCurRow + getRowCount(mCurRow, false);
+
         minRaw = Math.max(minRaw, 0); //处理上边界
         maxRaw = Math.min(maxRaw, mLrcRows.size() - 1); //处理下边界
         //实现渐变的最大歌词行数
@@ -577,5 +577,35 @@ public class LrcView extends View implements ILrcView {
         mPlayingRowList.clear();
         mNormalRowList.addAll(splitRowUtil.getNormalRowList());
         mPlayingRowList.addAll(splitRowUtil.getPlayingRowList());
+    }
+
+    /**
+     * 需要重新修改可以展示的row范围
+     *
+     * @param curRow
+     */
+    private int getRowCount(int curRow, boolean isForward) {
+        int totalRow = (int) (getHeight() / (mCurSizeForOtherLrc + mCurPadding)) / 2;
+        int rowNum = curRow;
+        int rowCount = 0;
+        int pureRowCount = 0; //真正向前或向后移动的行数
+        if (isForward) {
+            rowNum--;
+        } else {
+            rowNum++;
+        }
+        while (rowNum >= 0 && rowNum < mNormalRowList.size() && rowCount < totalRow) {
+
+            rowCount += mNormalRowList.get(rowNum).size();
+            pureRowCount++;
+            if (isForward) {
+                rowNum--;
+            } else {
+                rowNum++;
+            }
+
+        }
+        return pureRowCount - 1;
+
     }
 }
