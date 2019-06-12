@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LrcDemo.iml" filepath="$PROJECT_DIR$/LrcDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lrcDemo/lrcDemo.iml" filepath="$PROJECT_DIR$/lrcDemo/lrcDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lrcViewmaster/lrcViewmaster.iml" filepath="$PROJECT_DIR$/lrcViewmaster/lrcViewmaster.iml" />
+    </modules>
+  </component>
+</project>
