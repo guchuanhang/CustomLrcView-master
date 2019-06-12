@@ -15,7 +15,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af6ebb6b-6147-4d1c-bb95-ff84f457508b" name="Default" comment="" />
+    <list default="true" id="af6ebb6b-6147-4d1c-bb95-ff84f457508b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +42,8 @@
       <file leaf-file-name="LrcView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lrcViewmaster/src/main/java/com/lg/lrcview_master/LrcView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="230" column="47" lean-forward="true" selection-start-line="230" selection-start-column="47" selection-end-line="230" selection-end-column="47" />
+            <state relative-caret-position="175">
+              <caret line="222" column="43" selection-start-line="222" selection-start-column="43" selection-end-line="222" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3323,7 +3325,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Row&#9;FILE&#9;file://C:/Users/860618065/Pictures/LrcDemo/lrcViewmaster/src/main/java/com/lg/lrcview_master/SplitRowBean.java&#10;build.grad&#9;FILE&#9;file://C:/Users/860618065/Pictures/LrcDemo/lrcDemo/build.gradle&#10;build.g&#9;FILE&#9;file://C:/Users/860618065/Pictures/LrcDemo/lrcViewmaster/build.gradle&#10;Lrc&#9;FILE&#9;file://C:/Users/860618065/Pictures/LrcDemo/lrcViewmaster/src/main/java/com/lg/lrcview_master/LrcView.java&#10;MainAc&#9;PSI&#9;JAVA://com.lg.lrcdemo.MainActivity&#10;AndroidMan&#9;FILE&#9;file://C:/Users/860618065/Pictures/LrcDemo/lrcViewmaster/src/main/AndroidManifest.xml" />
@@ -3466,7 +3473,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -3482,7 +3488,7 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.19738276" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -4011,8 +4017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lrcViewmaster/src/main/java/com/lg/lrcview_master/LrcView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="230" column="47" lean-forward="true" selection-start-line="230" selection-start-column="47" selection-end-line="230" selection-end-column="47" />
+        <state relative-caret-position="175">
+          <caret line="222" column="43" selection-start-line="222" selection-start-column="43" selection-end-line="222" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
