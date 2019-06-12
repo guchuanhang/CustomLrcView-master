@@ -15,10 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af6ebb6b-6147-4d1c-bb95-ff84f457508b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lrcViewmaster/src/main/java/com/lg/lrcview_master/LrcView.java" beforeDir="false" afterPath="$PROJECT_DIR$/lrcViewmaster/src/main/java/com/lg/lrcview_master/LrcView.java" afterDir="false" />
-    </list>
+    <list default="true" id="af6ebb6b-6147-4d1c-bb95-ff84f457508b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +40,8 @@
       <file leaf-file-name="LrcView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lrcViewmaster/src/main/java/com/lg/lrcview_master/LrcView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="239" column="63" lean-forward="true" selection-start-line="239" selection-start-column="63" selection-end-line="239" selection-end-column="63" />
+            <state relative-caret-position="351">
+              <caret line="230" column="47" lean-forward="true" selection-start-line="230" selection-start-column="47" selection-end-line="230" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3468,7 +3465,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
@@ -4014,8 +4011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lrcViewmaster/src/main/java/com/lg/lrcview_master/LrcView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="239" column="63" lean-forward="true" selection-start-line="239" selection-start-column="63" selection-end-line="239" selection-end-column="63" />
+        <state relative-caret-position="351">
+          <caret line="230" column="47" lean-forward="true" selection-start-line="230" selection-start-column="47" selection-end-line="230" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
